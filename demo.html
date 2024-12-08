@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>drag-to-scroll Demo</title>
+  <meta name="viewport" content="width=device-width">
+  <style>
+    body { background: white; color: black; font-size: 20px; margin: 2em; }
+    #scrolling { border: 2px solid grey;
+      width: 30em; height: 20em; resize: both; overflow: auto; }
+    #inside { position: relative; }
+    #dummytext { position: relative; white-space: nowrap; }
+    #dummytext p { margin: 0; }
+    #dummytext i:before {
+      display: inline-block;
+      font-style: normal;
+      padding: 2em; content: "\21C5  \21C6  Drag to scroll";
+      background-image:
+        linear-gradient(to top right, wheat, transparent, wheat),
+        linear-gradient(to bottom right, skyblue, transparent, skyblue);
+    }
+  </style>
+</head><body>
+
+<div id="wrapper"><div id="scrolling" class="drag-to-scroll">
+  <div id="inside"><div id="dummytext">
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+    <p><i></i><i></i><i></i><i></i><i></i></p>
+  </div></div><!-- /#inside /#dummytext -->
+</div></div></div><!-- /#drag-to-scroll /#scrolling /#wrapper -->
+
+<script src="index.js"></script>
+
+</body></html>
