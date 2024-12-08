@@ -9,7 +9,7 @@ Drag the content to scroll your `overflow`-ing element.
 <!--/#echo -->
 
 
-* [Live demo](demo.html)
+* [Live demo](https://mk-pmb.github.io/html5-drag-to-scroll-pmb-js/demo.html)
 
 
 API

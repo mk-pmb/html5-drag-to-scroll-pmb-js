@@ -1,5 +1,5 @@
 { "name": "html5-drag-to-scroll-pmb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drag the content to scroll your `overflow`-ing HTML5 DOM element.",
   "keywords": [
     "drag",
